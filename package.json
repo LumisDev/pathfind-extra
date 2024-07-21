@@ -1,0 +1,21 @@
+{
+  "name": "pathfind-extra",
+  "version": "1.0.0",
+  "description": "A* pathfinding addon for Node.js using N-API",
+  "license":"MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-native": "cmake-js build",
+    "bundle": "rollup -c",
+    "build": "npm run build-native && npm run bundle",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "cmake-js": "^6.1.0"
+  },
+  "devDependencies": {
+    "rollup": "^3.0.0",
+    "rollup-plugin-natives": "^1.0.0"
+  },
+  "author": "B. Chabiene"
+}

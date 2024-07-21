@@ -1,0 +1,22 @@
+build
+dist
+node_modules
+
+# Rollup cache (if applicable)
+.cache/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.iml
