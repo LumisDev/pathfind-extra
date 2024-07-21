@@ -8,7 +8,8 @@
     "build-native": "cmake-js build",
     "bundle": "rollup -c",
     "build": "npm run build-native && npm run bundle",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "preinstall": "npm run build"
   },
   "dependencies": {
     "cmake-js": "^6.1.0"
